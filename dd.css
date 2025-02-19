@@ -1,0 +1,31 @@
+.glav{
+	width: 90%;
+	background: red;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 10px;
+	grid-template-rows: 200px 150px 220px;
+	}
+.item{
+	background: yellow;
+	text-align: center;
+	font-size: 50px;
+	
+}
+.bir{
+	background: red;
+	grid-column:1/5;
+
+}
+.ikki{
+
+	background:lime;
+	grid-row: 1/5;
+}
+
+.item{
+	background: white;
+	text-align: center;
+}
+
